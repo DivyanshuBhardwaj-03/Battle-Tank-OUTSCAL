@@ -13,7 +13,7 @@ public class TankSpawner : MonoBehaviour
 
     private void CreateTank()
     {
-        TankModel tankModel = new TankModel();
+        TankModel tankModel = new TankModel(30,10);
         TankController tankController = new TankController(tankModel,tankView );
     }
     // Update is called once per frame
