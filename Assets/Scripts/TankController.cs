@@ -10,7 +10,7 @@ public class TankController
     public TankController (TankModel _tankModel,TankView _tankView)
     {
         tankModel = _tankModel;
-        tankView = GameObject.Instantiate<TankView>(tankView);
+        tankView = GameObject.Instantiate<TankView>(_tankView);
         rb = tankView.GetRigidbody();
         tankModel.SetTankController(this);
         tankView.SetTankController(this);

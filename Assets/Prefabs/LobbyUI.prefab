@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 3870283614252561374}
   - component: {fileID: 3870283614252561375}
   - component: {fileID: 3870283614252560931}
-  - component: {fileID: 1029939235}
+  - component: {fileID: 5845648798004930937}
   m_Layer: 5
   m_Name: LobbyUI
   m_TagString: Untagged
@@ -198,7 +198,7 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &1029939235
+--- !u!114 &5845648798004930937
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -467,7 +467,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1029939235}
+      - m_Target: {fileID: 5845648798004930937}
         m_TargetAssemblyTypeName: TankSelection, Assembly-CSharp
         m_MethodName: RedTankSelected
         m_Mode: 1
@@ -816,7 +816,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1029939235}
+      - m_Target: {fileID: 5845648798004930937}
         m_TargetAssemblyTypeName: TankSelection, Assembly-CSharp
         m_MethodName: GreenTankSelected
         m_Mode: 1
@@ -1084,7 +1084,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1029939235}
+      - m_Target: {fileID: 5845648798004930937}
         m_TargetAssemblyTypeName: TankSelection, Assembly-CSharp
         m_MethodName: BlueTankSelected
         m_Mode: 1
